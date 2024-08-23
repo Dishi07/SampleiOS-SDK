@@ -24,13 +24,12 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = 'sameple repository'
 
-  spec.homepage     = "http://EXAMPLE/SampleiOS-SDK"
+  spec.homepage     = "https://github.com/Dishi07/SampleiOS-SDK"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "Dishi07" => "dishi30000@gmail.com" }
-  spec.source       = { :git => "http://EXAMPLE/SampleiOS-SDK.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "git@github.com:Dishi07/SampleiOS-SDK.git", :tag => "#{spec.version}" }
   spec.vendored_frameworks = 'SampleiOS.xcframework'
 
 
