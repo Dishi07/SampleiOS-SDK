@@ -12,7 +12,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SampleiOS",
-            path: "./SampleiOS.xcframework"
+            path: "SampleiOS.xcframework"
         )
     ]
 )
