@@ -6,15 +6,12 @@ let package = Package(
     platforms: [.iOS(.v15)],
     products: [
         .library(
-            name: "SampleiOS",
-            targets: ["SampleiOS"]),
+            name: "SampleiOS-SDK",
+            targets: ["SampleiOS-SDK"]),
     ],
     targets: [
-        .target(
-            name: "SampleiOS"
-        ),
         .binaryTarget(
-            name: "SampleiOS",
+            name: "SampleiOS-SDK",
             path: "SampleiOS.xcframework"
         )
     ]
