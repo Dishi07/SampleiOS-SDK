@@ -12,7 +12,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SampleiOS-SDK",
-            path: "SampleiOS.xcframework"
+            path: "https://github.com/Dishi07/SampleiOS-SDK/releases/download/1.0.0/SampleiOS.xcframework.zip"
         )
     ]
 )
