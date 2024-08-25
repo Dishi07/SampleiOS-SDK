@@ -16,7 +16,7 @@ let package = Package(
         .binaryTarget(
             name: "SampleiOS",
             path: "https://github.com/Dishi07/SampleiOS-SDK/releases/download/1.0.0/SampleiOS.xcframework.zip",
-            checksum: "sha256:630462758b50463c46711f382ddefdd7c0553ea70c9814956f81d89667e9ead0"
+            checksum: "sha256:696ea65c9acdfb1d2aa08d9c77b4cf262500abd7ca72d86e720f7188cf7e81"
         )
     ]
 )
