@@ -1,0 +1,11 @@
+framework module SampleiOS {
+  umbrella header "SampleiOS.h"
+  export *
+
+  module * { export * }
+}
+
+module SampleiOS.Swift {
+  header "SampleiOS-Swift.h"
+  requires objc
+}
