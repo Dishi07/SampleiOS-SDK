@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "SampleiOS",
+    name: "SampleiOS-SDK",
     platforms: [.iOS(.v15)],
     products: [
         .library(
