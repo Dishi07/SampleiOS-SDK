@@ -8,10 +8,7 @@ let package = Package(
         .library(
             name: "SampleiOS",
             targets: ["SampleiOS"]),
-    ],
-    dependencies: [
-         .package(url: "https://github.com/Dishi07/SampleiOS-SDK", from: "1.0.0") 
-    ],
+    ],  
     targets: [
         .binaryTarget(
             name: "SampleiOS",
